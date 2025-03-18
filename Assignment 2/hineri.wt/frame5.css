@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #10002b;
+    font-family: Arial, sans-serif;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    padding: 50px 20px;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+h2 span {
+    color: #9d4edd;
+}
+
+.pricing-list {
+    list-style: none;
+    padding: 0;
+}
+
+.pricing-list li {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.free {
+    color: #00d4ff;
+    font-weight: bold;
+}
+
+.price {
+    color: #ff00ff;
+    font-weight: bold;
+}
+
+.highlight {
+    color: #ffd700;
+    font-weight: bold;
+}
+
+footer {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    color: #ccc;
+}
+
+.contact-btn {
+    background-color: #5a189a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.contact-btn:hover {
+    background-color: #9d4edd;
+}
